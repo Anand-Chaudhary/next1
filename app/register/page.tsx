@@ -35,9 +35,9 @@ const Register = () => {
     }
 
   return (
-    <div className='flex justify-center items-center m-20 p-20'>
-        <h1 className='text-3xl tracking-tighter underline'>Register</h1>
-        <input type="text" placeholder="Type here" className="input input-bordered w-full max-w-xs" />
+    <div className='flex flex-col justify-center border-2 border-blue-500 rounded-xl items-center m-20 p-20'>
+        <h1 className='text-3xl tracking-tighter underline m-3'>Register</h1>
+        <input type="text" placeholder="Type here" className="input rounded-xl input-bordered w-full max-w-xs" />
     </div>
   )
 }
